@@ -605,7 +605,6 @@ pimcore.object.classes.data.objectBridge = Class.create(pimcore.object.classes.d
      * @returns {Ext.data.Store}
      */
     getBridgeFieldStore: function () {
-        debugger;
         return new Ext.data.Store({
             proxy: {
                 type: 'ajax',
